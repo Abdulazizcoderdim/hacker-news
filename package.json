@@ -1,0 +1,19 @@
+{
+  "name": "hacker-news",
+  "scripts": {
+    "dev": "bun run --hot server/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.6.17"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.2.5",
+    "@eslint/js": "^9.18.0",
+    "@types/bun": "latest",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-drizzle": "^0.2.3",
+    "globals": "^15.14.0",
+    "typescript-eslint": "^8.21.0"
+  }
+}
